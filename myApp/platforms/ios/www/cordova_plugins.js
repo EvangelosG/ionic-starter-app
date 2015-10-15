@@ -34,6 +34,14 @@ module.exports = [
         "clobbers": [
             "navigator.splashscreen"
         ]
+    },
+    {
+        "file": "plugins/io.branch.sdk/dist/build.js",
+        "id": "io.branch.sdk.branch",
+        "clobbers": [
+            "branch",
+            "Branch"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -43,7 +51,8 @@ module.exports.metadata =
     "cordova-plugin-console": "1.0.1",
     "cordova-plugin-device": "1.0.1",
     "cordova-plugin-splashscreen": "2.1.0",
-    "cordova-plugin-whitelist": "1.0.0"
+    "cordova-plugin-whitelist": "1.0.0",
+    "io.branch.sdk": "1.7.0"
 }
 // BOTTOM OF METADATA
 });

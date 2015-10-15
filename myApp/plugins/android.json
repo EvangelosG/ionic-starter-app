@@ -26,6 +26,16 @@
                         }
                     ]
                 }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"BranchDevice\"><param name=\"android-package\" value=\"io.branch.BranchDevice\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },
@@ -43,6 +53,9 @@
             "PACKAGE_NAME": "com.ionicframework.myapp806924"
         },
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.myapp806924"
+        },
+        "io.branch.sdk": {
             "PACKAGE_NAME": "com.ionicframework.myapp806924"
         }
     },

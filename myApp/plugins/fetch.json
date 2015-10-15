@@ -38,5 +38,14 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "io.branch.sdk": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BranchMetrics/Cordova-Ionic-PhoneGap-Deferred-Deep-Linking-SDK",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

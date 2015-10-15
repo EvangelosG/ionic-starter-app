@@ -45,6 +45,7 @@
 		60CB01FD55E849B8B7D49253 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B7A7E4C684CC3BBF377F3 /* CDVDevice.m */; };
 		CB1895D412B548649BCC30CA /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2AEA8273C04827A3E572EC /* CDVSplashScreen.m */; };
 		47BAB799B4DA452CB092BCB3 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0593F62915194A1F9FD4C3C3 /* CDVViewController+SplashScreen.m */; };
+		F95598B58733433D9C71C62D /* BNCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0E0CECDB7B46A6B6DD542E /* BNCDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		0593F62915194A1F9FD4C3C3 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		A2CAD4AFFD874FB2AE23B64D /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		1FFE2D39AA354A8894C8E96F /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6C0E0CECDB7B46A6B6DD542E /* BNCDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BNCDevice.m"; path = "io.branch.sdk/BNCDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		66BE8F572EB44438938661A0 /* BNCDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BNCDevice.h"; path = "io.branch.sdk/BNCDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +235,8 @@
 				0593F62915194A1F9FD4C3C3 /* CDVViewController+SplashScreen.m */,
 				A2CAD4AFFD874FB2AE23B64D /* CDVSplashScreen.h */,
 				1FFE2D39AA354A8894C8E96F /* CDVViewController+SplashScreen.h */,
+				6C0E0CECDB7B46A6B6DD542E /* BNCDevice.m */,
+				66BE8F572EB44438938661A0 /* BNCDevice.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -422,6 +427,7 @@
 				60CB01FD55E849B8B7D49253 /* CDVDevice.m in Sources */,
 				CB1895D412B548649BCC30CA /* CDVSplashScreen.m in Sources */,
 				47BAB799B4DA452CB092BCB3 /* CDVViewController+SplashScreen.m in Sources */,
+				F95598B58733433D9C71C62D /* BNCDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
